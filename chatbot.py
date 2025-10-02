@@ -18,8 +18,8 @@ from langchain.callbacks.streaming_stdout import StreamingStdOutCallbackHandler
 from langchain.chains import RetrievalQA
 import sys
 import os
-channel_secret = "090541660c744876585e177450bda8e4"
-channel_access_token = "jsbBpMtTFPZLMNRXxrPZ0fzTRCrWGQI54SLbgdqAn4AC/JQjzPFUKc9p+lfHjsNbDmmqBi8+IVKfh+fD3YAW1N1h46n+0XtDDL7jOeaxwTZu+YHliuH1NN9G9oPesX1/XDu2HQ96HSto0mnz1fCUBwdB04t89/1O/w1cDnyilFU="
+channel_secret = "your_line_channel_secret"
+channel_access_token = "your_line_channel_access_token"
 
 line_bot_api = LineBotApi(channel_access_token)
 handler = WebhookHandler(channel_secret)
